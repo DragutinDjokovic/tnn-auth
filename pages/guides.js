@@ -4,6 +4,7 @@ export default function Guides() {
   return (
     <div className={styles.guides}>
       <h2>All Guides</h2>
+      <p>Bla bla truc</p>
     </div> 
   )
 }
