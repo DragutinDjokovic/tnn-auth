@@ -35,7 +35,6 @@ export const AuthContextProvider = ( { children } ) => {
 
         return () => {
             netlifyIdentity.off('login')
-            netlifyIdentity.off('logout')
         }
     },[])
 
