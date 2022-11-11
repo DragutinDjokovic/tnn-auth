@@ -21,8 +21,8 @@ export default function Guides() {
       return res.json()
     })
     .then(data => {
-      setGuides(data)
       setError(null)
+      setGuides(data)
     })
     .catch((err) => {
       setError(err.message)
